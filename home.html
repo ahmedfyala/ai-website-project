@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الذكاء الاصطناعي - دليلك الشامل</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/logo10.jpeg" alt="شعار الجامعة">
+                <h2>مشروع الذكاء الاصطناعي</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#about">ما هو الذكاء الاصطناعي؟</a>
+                <a href="#history">تاريخ التقنية</a>
+                <a href="#types">الأنواع</a>
+                <a href="#uses">المجالات</a>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل المظهر">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title reveal-on-scroll">أهلاً بك في عالم الآلات الذكية</h1>
+                <p class="hero-subtitle reveal-on-scroll">
+                    تكنولوجيا الذكاء الاصطناعي (AI) لم تعد مجرد خيال علمي نراه في الأفلام. اليوم، أصبحت المحرك الأساسي الذي يبني حاضرنا ويرسم ملامح كوكبنا في المستقبل.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 1: What is AI? (Light, Split Layout) -->
+        <section id="about" class="content-wrapper">
+            <div class="container section-split reveal-on-scroll">
+                <div class="split-text">
+                    <h3><span aria-hidden="true">💡</span> ما هو الذكاء الاصطناعي؟</h3>
+                    <p>
+                        فرع من فروع علوم الحاسوب يهدف لابتكار أنظمة وآلات قادرة على محاكاة القدرات الذهنية للبشر. لا يتعلق الأمر بالبرمجة التقليدية، بل بتدريب الآلة للتعلم من البيانات التراكمية، اتخاذ القرارات، التحليل المنطقي، بل وحتى الاستنتاج الذاتي.
+                    </p>
+                    <ul class="feature-list">
+                        <li>معالجة كميات ضخمة من البيانات في ثوانٍ.</li>
+                        <li>التعرف على الأنماط والصور والصوت البشري بدقة.</li>
+                        <li>التطوير الذاتي للنماذج العصبية.</li>
+                    </ul>
+                </div>
+                <div class="split-img">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1200" alt="مفهوم الذكاء الاصطناعي" class="content-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: History (Alt BG, Reverse Split) -->
+        <section id="history" class="content-wrapper alt-bg reverse-layout">
+            <div class="container section-split reveal-on-scroll">
+                <div class="split-text">
+                    <h3><span aria-hidden="true">📜</span> تاريخ الذكاء الاصطناعي</h3>
+                    <p>
+                        وُلد المصطلح رسمياً في صيف عام 1956م في مؤتمر دارتموث، واعتبره رواد الحاسوب حلماً يمكن تحقيقه خلال عقود قليلة. مرت التقنية بسنوات من الركود عرفت بـ "شتاء الذكاء الاصطناعي" بسبب نقص قوة المعالجة وصعوبة التمويل.
+                    </p>
+                    <p>
+                        ولكن مع تضاعف سرعات المعالجات وظهور تقنية التعلم العميق (Deep Learning) في الألفية الجديدة، انفجر التطور التقني ليعود الذكاء الاصطناعي للواجهة كأقوى تقنية عرفتها البشرية.
+                    </p>
+                </div>
+                <div class="split-img">
+                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800" alt="تاريخ الروبوتات" class="content-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Types -->
+        <section id="types" class="content-wrapper">
+            <div class="container reveal-on-scroll">
+                <div class="text-center" style="margin-bottom: 2rem;">
+                    <h3><span aria-hidden="true">🧠</span> أنواع الذكاء الاصطناعي</h3>
+                    <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">يصنف الذكاء الاصطناعي بناءً على إدراكه الذاتي وقدراته إلى ثلاثة أصناف رئيسية</p>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <div class="example-box">
+                        <h4>1. التخصصي (ANI)</h4>
+                        <p>يقتصر على مهمة واحدة بامتياز. (المتاح حالياً كالمساعدات الصوتية وخوارزميات التوصية).</p>
+                    </div>
+                    <div class="example-box">
+                        <h4>2. العام (AGI)</h4>
+                        <p>مكافئ لذكاء الإنسان القادر على التفكير المنطقي والعاطفي. (لا يزال قيد الأبحاث المخبرية).</p>
+                    </div>
+                    <div class="example-box">
+                        <h4>3. الفائق (ASI)</h4>
+                        <p>تفوق الآلة على أعظم العقول البشرية في كافة المجالات العلمية والفنية والاجتماعية.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Uses (Alt BG, Normal Split) -->
+        <section id="uses" class="content-wrapper alt-bg">
+            <div class="container section-split reveal-on-scroll">
+                <div class="split-text">
+                    <h3><span aria-hidden="true">🌐</span> مجالات الاستخدام المتنوعة</h3>
+                    <ul class="feature-list">
+                        <li><strong>في الطب:</strong> اكتشاف الأورام بدقة تفوق بعض الأطباء بفضل فحص آلاف الأشعة المعززة.</li>
+                        <li><strong>في النقل:</strong> توجيه المركبات ذاتية القيادة والتخطيط العبقري للملاحة لتجاوز الازدحام.</li>
+                        <li><strong>في التعليم:</strong> تخصيص منصات تعليمية لفهم قدرات الطالب وبناء منهج خاص به وحده.</li>
+                        <li><strong>في الأمن السيبراني:</strong> رصد الهجمات والاختراقات في ثواني والتصدي لها قبل حدوثها.</li>
+                    </ul>
+                </div>
+                <div class="split-img">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800" alt="الذكاء الاصطناعي في الاستخدامات" class="content-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Pros and Cons (Light) -->
+        <section class="content-wrapper">
+            <div class="container reveal-on-scroll">
+                <h3 class="text-center"><span aria-hidden="true">⚖️</span> المميزات والعيوب</h3>
+                <div class="pros-cons-grid">
+                    <div class="pros-box">
+                        <h4 class="pros-title">مميزات تقنيات الـ AI</h4>
+                        <ul class="feature-list">
+                            <li>القضاء على احتمالية الخطأ البشري.</li>
+                            <li>التوافر للعمل المستمر 24/7 دون الحاجة للراحة.</li>
+                            <li>تسريع اتخاذ القرارات من خلال معالجة البيانات.</li>
+                        </ul>
+                    </div>
+                    <div class="cons-box">
+                        <h4 class="cons-title">تحديات وعيوب تقنيات الـ AI</h4>
+                        <ul class="feature-list">
+                            <li>تكلفة بناء النماذج العصبية الكبيرة ضخمة جداً.</li>
+                            <li>احتمالية فقدان الكثير من الوظائف التقليدية.</li>
+                            <li>انعدام حاسة الإبداع البشري الفطري والمشاعر.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Risks (Alt BG, Reverse Split) -->
+        <section id="risks" class="content-wrapper alt-bg reverse-layout">
+            <div class="container section-split reveal-on-scroll">
+                <div class="split-text">
+                    <h3><span aria-hidden="true">⚠️</span> المخاطر على المجتمع</h3>
+                    <p>
+                        إلى جانب فوائده المذهلة، هناك تحذيرات جادة من إساءة الاستخدام في المجتمعات وتأثيرها على الأمن العام للمواطنين.
+                    </p>
+                    <ul class="feature-list">
+                        <li><strong>انحياز الخوارزمية (Bias):</strong> اتخاذ قرارات عنصرية في التوظيف إذا تم تدريب الموديل على بيانات متحيزة وتاريخية خاطئة.</li>
+                        <li><strong>التزييف العميق (Deepfakes):</strong> خلق فيديوهات وهمية وصوتيات لا يمكن تفريقها عن الواقع.</li>
+                        <li><strong>المراقبة الشاملة:</strong> انتهاك الخصوصية من خلال التحليل الآلي السريع.</li>
+                    </ul>
+                </div>
+                <div class="split-img">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="مخاطر الذكاء" class="content-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Video -->
+        <section class="content-wrapper">
+            <div class="container reveal-on-scroll text-center">
+                <h3 class="video-title"><span aria-hidden="true">▶️</span> شاهد للتوضيح</h3>
+                <div class="media-section">
+                    <div class="video-container">
+                        <video controls preload="metadata" poster="images/logo3.jpeg">
+                            <source src="videos/video2.mp4" type="video/mp4">
+                            متصفحك لا يدعم مشغّل الفيديو.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: References (Alt BG) -->
+        <section class="content-wrapper alt-bg">
+            <div class="container reveal-on-scroll text-center" style="max-width: 800px;">
+                <h3><span aria-hidden="true">🔗</span> مصادر ومراجع</h3>
+                <p style="color: var(--text-muted); margin-bottom: 2rem;">نرشح لك هذه المصادر الأكاديمية والموثوقة للتوسع في عالم الذكاء الاصطناعي وتقنيات المستقبل.</p>
+                <div class="references-grid">
+                    <a href="https://ar.wikipedia.org/wiki/ذكاء_اصطناعي" target="_blank" class="ref-link" rel="noopener noreferrer">صفحة ويكيبيديا</a>
+                    <a href="https://openai.com" target="_blank" class="ref-link" rel="noopener noreferrer">منصة شركة OpenAI</a>
+                    <a href="https://ai.google" target="_blank" class="ref-link" rel="noopener noreferrer">أبحاث Google AI</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Professional Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>عن المشروع</h4>
+                <p>تم تصميم وبناء هذا الموقع كمشروع أكاديمي متكامل لنشر الوعي حول تقنيات الذكاء الاصطناعي وإلقاء الضوء على التحديات والفرص المستقبلية في هذا العالم المتسارع.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <a href="#about">التعريف بالتقنية</a>
+                <a href="#history">النشأة والتاريخ</a>
+                <a href="#types">أنواع الأنظمة</a>
+                <a href="#uses">مجالات التطبيق</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>بيانات الطالب</h4>
+                <p>
+                    <strong>الشعبة:</strong> نظم المعلومات<br>
+                    <strong>السنة الدراسية:</strong> 2026<br>
+                    <strong>جهة الإشراف:</strong> كلية علوم الحاسب
+                </p>
+                <div class="logo-group" style="margin-top: 1rem;">
+                    <img src="images/logo8.jpeg" alt="شعار الكلية" style="height: 40px; border-radius: 4px;">
+                    <img src="images/logo10.jpeg" alt="شعار الجامعة" style="height: 40px; border-radius: 4px;">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 جميع الحقوق محفوظة | مشروع علوم الذكاء الاصطناعي الجامعي</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTopBtn" class="back-to-top" aria-label="العودة للأعلى">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
