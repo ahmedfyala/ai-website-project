@@ -166,7 +166,25 @@
             </div>
         </section>
 
-        <!-- Section 7: Video -->
+        <!-- Section 7: Quiz Integration (Light) -->
+        <section id="quiz" class="content-wrapper">
+            <div class="container reveal-on-scroll">
+                <div class="text-center" style="margin-bottom: 2rem;">
+                    <h3><span aria-hidden="true">📝</span> اختبر معلوماتك</h3>
+                    <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">قمنا بتجهيز اختبارات قصيرة لقياس مدى استيعابك لمفاهيم الذكاء الاصطناعي التي تناولناها.</p>
+                </div>
+                
+                <div class="quiz-container text-center" style="background: var(--card-bg); padding: 2rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); max-width: 800px; margin: 0 auto;">
+                    <div style="margin-bottom: 1.5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn-primary" style="width: auto; padding: 0.5rem 1.5rem;" onclick="switchQuiz('https://docs.google.com/forms/d/e/1FAIpQLSf4o-A0H9ZGBK8m8vTq-6E6OxtQ91c2bYmNlF4H2PjZpGqk9A/viewform?embedded=true', this)">الاختبار الأول: الأساسيات</button>
+                        <button class="btn-primary" style="width: auto; padding: 0.5rem 1.5rem; background: var(--text-muted);" onclick="switchQuiz('https://docs.google.com/forms/d/e/1FAIpQLSe-0PjO2G-dK9B2gA4K4jF2rN7Xm4w2jF5P2ZqG-qPjO2B4kQ/viewform?embedded=true', this)">الاختبار الثاني: المخاطر</button>
+                    </div>
+                    <iframe id="quizFrame" src="https://docs.google.com/forms/d/e/1FAIpQLSf4o-A0H9ZGBK8m8vTq-6E6OxtQ91c2bYmNlF4H2PjZpGqk9A/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" style="border-radius: 8px;">يتم تحميل الاختبار...</iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Video -->
         <section class="content-wrapper">
             <div class="container reveal-on-scroll text-center">
                 <h3 class="video-title"><span aria-hidden="true">▶️</span> شاهد للتوضيح</h3>

@@ -23,6 +23,21 @@ function handleLogin(event) {
     }
 }
 
+// --- Quiz Switching Logic ---
+window.switchQuiz = function(url, btnElement) {
+    const iframe = document.getElementById('quizFrame');
+    if (iframe) {
+        iframe.src = url;
+        
+        // Update button visual states
+        const buttons = btnElement.parentElement.querySelectorAll('button');
+        buttons.forEach(btn => {
+            btn.style.background = 'var(--text-muted)';
+        });
+        btnElement.style.background = 'var(--primary-color)';
+    }
+};
+
 // --- DOM Content Loaded Logic for Home Page ---
 document.addEventListener('DOMContentLoaded', () => {
 
